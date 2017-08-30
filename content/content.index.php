@@ -10,7 +10,7 @@
 		 * Constructor
 		 */
 		function __construct(){
-			$this->_uri = URL . '/symphony/extension/author_roles/';
+			$this->_uri = SYMPHONY_URL . '/extension/author_roles/';
 			$this->_driver = Symphony::ExtensionManager()->create('author_roles');
 			parent::__construct();
 		}
